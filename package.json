@@ -1,0 +1,33 @@
+{
+  "name": "Jarvis",
+  "version": "1.0.0",
+  "description": "Hey Jarvis",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s-s01tan/jarvis-desktop"
+  },
+  "bugs": {
+    "url": "https://github.com/BCPAZ/s-s01tan/jarvis-desktop"
+  },
+  "keywords": [],
+  "author": "Soltan Soltanli",
+  "license": "ISC",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.4.2",
+    "@electron-forge/maker-deb": "^6.4.2",
+    "@electron-forge/maker-rpm": "^6.4.2",
+    "@electron-forge/maker-squirrel": "^6.4.2",
+    "@electron-forge/maker-zip": "^6.4.2",
+    "@electron-forge/plugin-auto-unpack-natives": "^6.4.2",
+    "electron": "^27.0.2"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0"
+  }
+}
